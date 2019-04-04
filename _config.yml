@@ -1,18 +1,18 @@
 # Site settings
-title: TTS Handbook
+title: VA GitHub Handbook
 description: A collection of guides and policies to help you with your work.
 email:
 permalink: pretty
 author:
-  name: Andrew Maier and Nicole Fenton
-  email: handbook.18f@gsa.gov
+  name: GitHub Team at the VA
+  email: some.email@va.gov
 
 slack:
-  organization: 18f
-  channel: handbook
+  organization: lighthouseva
+  channel: github-project-team
 
 github:
-  organization: 18F
+  organization: department-of-veterans-affairs
   repository: handbook
   default_branch: master
 
@@ -42,7 +42,7 @@ collections:
     permalink: /:path/
 
 # Google Analytics tracking code for handbook
-google_analytics_ua: UA-48605964-19
+google_analytics_ua: 
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
@@ -66,442 +66,93 @@ jekyll_pages_api_search:
 generate_nodes: true
 flat_namespace: true
 
-jekyll_get:
-  - data: dgcommunities
-    json: 'https://digital.gov/communities/index.json'
-
 navigation:
-- text: Table of Contents
-  internal: true
-- text: Welcome to TTS
+- text: Welcome to the VA
   blurb: |
-    Here's what you need to know in your first week.
-  url: welcome-to-TTS/
+    <div>
+      <p>Welcome to GitHub, a powerful platform for individuals and organizations to discover, share, and contribute to code — and to manage software (and other) projects.</p>
+      <p>The VA uses GitHub to enable collaboration and transparency around project artifacts in a way that is secure and compliant.</p>
+    </div> 
+  url: welcome-to-VA/
   internal: true
   generated: true
-  children:
-  - children:
-    - text: Welcome
-      url: welcome-letter/
-      internal: true
-    - text: Onboarding schedule
-      url: onboarding-schedule/
-      internal: true
-    - text: Logging in
-      url: how-to-log-in
-      internal: true
-    - text: Equipment
-      url: equipment/
-      internal: true
-    - text: Networks
-      url: networks/
-      internal: true
-    - text: Benefits
-      url: benefits/
-      internal: true
-    - text: Online Learning University (OLU)
-      url: olu/
-      internal: true
-    - text: Travel 101
-      url: travel-101/
-      internal: true
-    - text: GitHub 101
-      url: intro-to-github/
-      internal: true
-- text: About us
-  blurb: |
-    <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">Technology Transformation Services (TTS)</a> applies modern methodologies and technologies to improve the public’s experience with government by helping agencies make their services more accessible, efficient, and effective. Below is more information on both general TTS policies and the individual offices within TTS.
-  url: about-us/
-  internal: true
-  generated: true
-  children:
-  - text: TTS Policies and Information
+  children:    
+  - text: Getting Started with GitHub 🚀
+    blurb: |
+      Here are some topics to get you started with GitHub. Feel free to explore more of our documentation at <a href="https://help.github.com">help.github.com</a>
     children:
-    - text: General
+    - text: Learn to use GitHub
       children:
-      - text: TTS Code of Conduct
-        url: code-of-conduct/
-        internal: true
-      - text: TTS org chart
-        url: tts-org-chart/
-        internal: true
-      - text: General contacts and listservs
-        url: general-contacts-and-listservs/
-        internal: true
-      - text: Working groups and guilds
-        url: working-groups-and-guilds-101/
-        internal: true
-        children:
-        - text: Diversity at TTS
-          url: diversity/
-          internal: true
-        - text: Accessibility
-          url: accessibility/
-          internal: true
-      - text: Glossary
-        url: glossary/
-        internal: true
-      - text: Records management
-        url: records-management/
-        internal: true
-      - text: TTS history
-        url: tts-history/
-        internal: true
-      - text: Washington, D.C. Office
-        url: washington-dc/
-        internal: true
-
-    - text: Travel and leave
-      children:
-      - text: Leave (HR Links)
-        url: leave/
-        internal: true
-      - text: Travel guide
-        url: travel-guide-start-here/
-        internal: true
-    - text: Tech
-      children:
-      - text: FITARA
-        url: fitara/
-        internal: true
-      - text: Requirements for passwords
-        url: password-requirements/
-        internal: true
-      - text: Security incidents
-        url: security-incidents/
-        internal: true
-      - text: Sensitive information
-        url: sensitive-information/
-        internal: true
-    - text: Employee resources
-      children:
-      - text: Attending or speaking at a conference
-        url: attending-conferences/
-        internal: true
-      - text: Benefits links and resources
-        url: benefits-links/
-        internal: true
-      - text: Emergency procedures
-        url: https://docs.google.com/document/d/11tUnOegbHajqXPwSFxGtmGakupYrLgyItz4sgxAysi8/edit
+      - text: Sign up for GitHub training
+        url: https://vaww.oit.va.gov/services/github/github-training
         internal: false
-      - text: Employee assistance program
-        url: employee-assistance-program/
-        internal: true
-      - text: Employment verification
-        url: employment-verification/
-        internal: true
-      - text: Merit promotions
-        url: merit-promotions/
-        internal: true
-      - text: Overtime and comp time
-        url: overtime-and-comp-time/
-        internal: true
-      - text: Promotions
-        url: promotions/
-        internal: true
-      - text: Purchase requests
-        url: purchase-requests/
-        internal: true
-        children:
-        - text: Software under $10,000
-          url: software/
-          internal: true
-        - text: Procurements over $10,000
-          url: procurements-over-10000/
-          internal: true
-      - text: Resources for Deaf and Hard of Hearing individuals
-        url: deaf-hoh/
-        internal: true
-      - text: Telework guidance
-        url: telework/
-        internal: true
-        children:
-        - text: Virtual work and moving
-          url: moving/
-          internal: true
-      - text: Transit benefit
-        url: transit-benefit/
-        internal: true
-    - text: Detailing and offboarding
+        new_tab: true
+      - text: Learn at your own pace
+        url: https://lab.github.com
+        internal: false
+        new_tab: true
+    - text: More in Depth docs
       children:
-      - text: Assignments and details
-        url: assignee-detail/
-        internal: true
-      - text: Leaving TTS
-        url: leaving-tts/
-        internal: true
-      - text: Term extensions
-        url: term-extensions/
-        internal: true
-
-  - text: TTS tools
+      - text: GitHub Bootcamp
+        url: https://help.github.com/en/categories/bootcamp
+        internal: false
+        new_tab: true
+      - text: Basic Setup
+        url: https://help.github.com/en/categories/setup
+        internal: false
+        new_tab: true
+      - text: GitHub Glossary
+        url: https://help.github.com/en/articles/github-glossary
+        internal: false
+        new_tab: true
+      - text: Using Git
+        url: https://help.github.com/en/categories/using-git
+        internal: false
+        new_tab: true
+      - text: GitHub Desktop
+        url: https://desktop.github.com/
+        internal: false
+        new_tab: true
+      - text: GitHub Desktop Help documents 
+        url: https://help.github.com/en/desktop
+        internal: false
+        new_tab: true
+  - text: GitHub at the VA 
+    blurb: |
+      There are some things you should know about how the VA uses GitHub.
     children:
-    - children:
-      - text: Meetings and meeting tools
-        url: meetings-and-meeting-tools/
-        internal: true
-      - text: GSA internal tools
-        url: gsa-internal-tools/
-        internal: true
-      - text: AnyConnect
-        url: anyconnect/
-        internal: true
-      - text: eSign
-        url: esign/
-        internal: true
-      - text: Federalist
-        url: federalist/
-        internal: true
-      - text: GitHub
-        url: github/
-        internal: true
-      - text: Gmail
-        url: gmail/
-        internal: true
-      - text: Google Analytics
-        url: google-analytics/
-        internal: true
-      - text: Google Calendar
-        url: google-calendar/
-        internal: true
-      - text: Google Drive
-        url: google-drive/
-        internal: true
-    - children:
-      - text: Google Groups
-        url: google-groups/
-        internal: true
-      - text: Google Meet
-        url: google-meet/
-        internal: true
-      - text: Microsoft Office for OS X
-        url: gsa-internal-tools/#get-a-copy-of-microsoft-office
-        internal: true
-      - text: Mural.ly
-        url: murally/
-        internal: true
-      - text: Network time sync in OS X with NTP
-        url: ntp/
-        internal: true
-      - text: Slack
-        url: slack/
-        internal: true
-      - text: Text editors
-        url: text-editors/
-        internal: true
-      - text: Tock
-        url: tock/
-        internal: true
-      - text: Trello
-        url: trello/
-        internal: true
-      - text: VMware Horizon
-        url: vmware-horizon/
-        internal: true
-      - text: Zoom
-        url: zoom/
-        Internal: true
-
-- text: TTS Offices
-  blurb: |
-    We’re all one family at TTS, but each of the different offices have their own norms and practices. Read more here.
-  url: tts-offices/
-  internal: true
-  generated: true
-  children:
-  - text: TTS Office of Operations
-    children:
-    - text: Governance and Compliance Division
-      children:
-      - text: Coming soon!
-    - text: Business Operations Division
-      children:
-      - text: Ops
-        url: ops/
-        internal: true
-      - text: Agreements
-        url: agreements/
-        internal: true
-    - text: Talent Division
-      children:
-      - text: Talent
-        url: talent/
-        internal: true
-      - text: Refer a person
-        url: https://handbook.18f.gov/talent/#referring-a-person
-        internal: false
-      - text: Internal TTS Opportunities
-        url: https://docs.google.com/spreadsheets/d/120cF2PhzbTcCfoJ8n9L3o9brn30jOcfP5LZdZy6bElk/edit#gid=0
-        internal: false
-      - text: Top Secret/Sensitive Compartmented Information (TS/SCI)
-        url: top-secret/
-        internal: true
-    - text: Infrastructure
-      children:
-      - text: Infrastructure (TTS)
-        url: infrastructure/
-        internal: true
-      - text: Infrastructure (18F)
-        url: intro-to-18f-infrastructure/
-        internal: true
-    - text: Outreach
-      children:
-      - text: Outreach
-        url: outreach/
-        internal: true
-      - text: Social media
-        url: social-media/
-        internal: true
-      - text: Blogging
-        url: blogging/
-        internal: true
-  - text: TTS Office of Acquisition
-    children:
-    - text: Overview of OA
-      url: oa/
-      internal: true
-    - text: OA Operational Guidance
-      url: acquisition/
-      internal: true
-  - text: 18F
-    children:
-    - text: About 18F
-      children:
-      - text: 18F history and values
-        url: history-and-values/
-        internal: true
-      - text: 18F org chart
-        url: https://docs.google.com/presentation/d/1AuSp2Ldz_JkFQIegv3FHUa3HttiwGRGGPaq0y1VlMKY/edit
-        internal: false
-    - text: 18F Chapters
-      children:
-      - text: Custom Partner Solutions
-        url: custom-partner-solutions/
-        internal: true
-        children:
-        - text: Account management policy
-          url: client-accounts/
-          internal: true
-      - text: Acquisition (aka AcqStack)
-        url: acqstack/
-        internal: true
-      - text: Design
-        url: design/
-        internal: true
-      - text: Engineering
-        url: engineering/
-        internal: true
-      - text: Product +
-        url: product/
-        internal: true
-      - text: Product and open source
-        url: intro-to-product-and-open-source/
-        internal: true
-      - text: Strategy
-        url: strategy/
-        internal: true
-    - text: 18F Platforms
-      children:
-      - text: Cloud.gov
-        url: https://cloud.gov/
-        internal: false
-      - text: Login.gov
-        url: https://login.gov/
-        internal: false
-    - text: 18F Offices
-      children:
-      - text: Distributed
-        url: distributed/
-        internal: true
-      - text: Chicago
-        url: chicago/
-        internal: true
-      - text: New York City
-        url: new-york-city/
-        internal: true
-      - text: San Francisco
-        url: san-francisco/
-        internal: true
-      - text: Washington, D.C.
-        url: washington-dc/
-        internal: true
-    - text: 18F Labs
-      children:
-      - text: Writing Lab
-        url: writing-lab/
-        internal: true
-      - text: Design Lab
-        url: https://github.com/18F/design-lab
-        internal: false
-      - text: Dev Lab
-        url: https://gsa-tts.slack.com/messages/CDE5DU7QC/
-        internal: false
-    - text: 18F Team Resources
-      children:
-      - text: Bookmarks
-        url: bookmarks/
-        internal: true
-      - text: Doing research at 18F
-        url: research-guidelines/
-        internal: true
-      - text: One-on-ones
-        url: one-on-ones/
-        internal: true
-      - text: Out of office expectations
-        url: https://docs.google.com/document/d/1qgA-vEQ1_t5plPCAs1aCOAjK0RXQzka2hHSVhoa6v5o/edit
-        internal: false
-      - text: Before you ship
-        url: https://before-you-ship.18f.gov/infrastructure/aws/
-        internal: false
-      - text: Open source
-        url: https://github.com/18F/open-source-policy/blob/master/policy.md
-        internal: false
-      - text: Time tracking and billing <br><br>
-        url: https://handbook.18f.gov/tock/#time-tracking-and-billing
-        internal: false
-  - text: Office of Products and Programs (OPP)
-    children:
-    - text: About OPP
-      children:
-      - text: Overview of OPP
-        url: office-of-products-and-programs/
-        internal: true
-      - text: OPP History
-        url: opp-history/
-        internal: true
-      - text: OPP org chart
-        url: opp-org-chart/
-        internal: true
-    - text: Portfolios
-      children:
-      - text: Data
-        url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-products-and-programs#DSP
-        internal: false
-      - text: Innovation
-        url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-products-and-programs#IP
-        internal: false
-      - text: Public Experience
-        url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-products-and-programs#CEP
-        internal: false
-      - text: Smarter IT
-        url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-products-and-programs#SmarterITDelivery
-        internal: false
-      - text: Secure Cloud
-        url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-products-and-programs#SecureCloud
-        internal: false
-      - text: 10x
-        url: https://10x.gsa.gov
-        internal: false
-  - text: Centers of Excellence (CoE)
-    children:
-    - text: Overview of CoE
-      url: centers-of-excellence/
-      internal: true
-    - text: CoE Website
-      url: https://coe.gsa.gov/
+    - text: Get an account if you don't have one
+      url: https://github.com/join
       internal: false
-  - text: Presidential Innovation Fellows (PIF)
-    children:
-    - text: PIF Website
-      url: https://presidentialinnovationfellows.gov/
+      new_tab: true
+    - text: Already have an account? Well then, add your VA email address to it
+      url: https://github.com/settings/emails
       internal: false
+      new_tab: true
+    - text: Joining the VA GitHub Organization
+      url: join-va-org/
+      internal: true
+    - text: 2FA Requirements
+      url: 2fa-requirements/
+      internal: true
+    - text: Learn about the two versions of GitHub in use at the VA and request access
+      url: https://vaww.oit.va.gov/services/github/
+      internal: false
+      new_tab: true
+  - text: Additional Infomation
+    children:
+    - text: Glossary
+      url: glossary/
+      internal: true
+    - text: Bookmarks
+      url: bookmarks/
+      internal: true
+    - text: VA Code of Conduct
+      url: code-of-conduct/
+      internal: true
+    - text: Security incidents
+      url: security-incidents/
+      internal: true
+    - text: Sensitive information
+      url: sensitive-information/
+      internal: true
