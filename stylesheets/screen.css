@@ -158,9 +158,9 @@ img { max-width: 100%; }
 
 .site-header{
 	padding: 4px 0 6px;
-	border-bottom: 1px solid #006d47;
-	background: #006f49;
-	background: linear-gradient(#007f5d, #006f49);
+	border-bottom: 1px solid #112e51;
+	background: #112e51;
+	background: linear-gradient(180deg,#0071bb 0,#112e51 63%);
 	color: #fff;
 }
 
@@ -171,7 +171,7 @@ img { max-width: 100%; }
 	text-decoration: none;
 	line-height: 40px;
 	letter-spacing: -1px;
-	text-shadow: 0 -1px 0 #006f49;
+	text-shadow: 0 -1px 0 #112e51;
 }
 
 .site-header form,
@@ -184,7 +184,7 @@ img { max-width: 100%; }
 
 .site-header form .field{
 	position: relative;
-	background-color: #003629;
+	background-color: #112e51;
 	border-radius: 99em;
 }
 
@@ -202,7 +202,7 @@ html body .site-header form input{
 	appearance: none;
 	border: none;
 	border-radius: 999em;
-	box-shadow: 0 1px 0 #007f5d;
+	box-shadow: 0 1px 0 #003a81;
 	display: block;
 	width: 100% !important;
 	height: 32px;
@@ -970,8 +970,8 @@ a[id]{
 	}
 
 	.layout-table-of-contents .site-header{
-		background: #007f5d;
-		background: linear-gradient(#007f5d, #008c56);
+		background: #112e51;
+		background: linear-gradient(180deg,#0071bb 0,#112e51 63%);
 		color: #fff8ce;
 		padding: 1.4em 0 1.8em;
 	}
