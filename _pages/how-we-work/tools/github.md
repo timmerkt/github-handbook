@@ -4,15 +4,15 @@ tag:
 - Git
 ---
 
-GitHub is a closed-source platform for [open-source](https://github.com/18F/open-source-policy) communities. It allows us to collaborate on documentation and code, both internally and with a broader audience.
+[GitHub](https://github.com) is a platform that allows us to collaborate on documentation and code, both internally and with a broader audience.
 
-GSA IT has staff that manage GSA's GitHub org. See more information about that in [the GSA GitHub documentation](https://github.com/GSA/GitHub-Administration#requesting-access-to-the-gsa-organization).
+The VA has staff that manage VA's GitHub org. See more information about that in [the VA GitHub documentation](#).
 
 ## <a id="setup">Setup</a>
 
 GitHub is a web application, so there&rsquo;s no installation necessary, but you may find the [desktop app](https://desktop.github.com/) useful.
 
-If you don&rsquo;t have a GitHub account, you must use your work email (rather than your personal email) to [sign up](https://github.com/join), as this helps us with [records retention]({{site.baseurl}}/records-management) and identification. If you do have a GitHub account, please [add your work email to your profile](https://github.com/settings/emails) as your primary email.
+If you don&rsquo;t have a GitHub account, you must use your work email (rather than your personal email) to [sign up](https://github.com/join), as this helps us with identification. If you do have a GitHub account, please [add your work email to your profile](https://github.com/settings/emails) as your primary email.
 
 ### 1. Complete your profile
 
@@ -35,21 +35,11 @@ Include the following:
 
 **[Turn notifications on](https://github.com/settings/notifications)** and adjust the settings as needed. Some people watch every repo; others only watch when they're mentioned.
 
-You will get a lot of emails when you turn notifications on. To help stem the tide, you can set up a Gmail filter to automatically archive emails from `notifications@github.com`. However, you probably want to let through those emails that contain your GitHub username or are posted to a repo you're watching. Since on GitHub, each repo is considered its own mailing list, checking for that identifier is one reliable way to allow these notifications through. For example, if the repo name in GitHub is `18F/calc`, the mailing list will be `calc.18F.github.com`. You can also find this by opening an email from the desired repo, clicking the "more info" arrow in the "To" field, and copying the bracketed address in the "mailing list" field. Adding `list:(calc.18F.github.com)` to your filter's exceptions will allow any issues posted to that repo to reach your inbox.
+You will get a lot of emails when you turn notifications on. To help stem the tide, you can set up a email filter to automatically archive emails from `notifications@github.com`. However, you probably want to let through those emails that contain your GitHub username or are posted to a repo you're watching. Since on GitHub, each repo is considered its own mailing list, checking for that identifier is one reliable way to allow these notifications through. For example, if the repo name in GitHub is `18F/calc`, the mailing list will be `calc.18F.github.com`. You can also find this by opening an email from the desired repo, clicking the "more info" arrow in the "To" field, and copying the bracketed address in the "mailing list" field. Adding `list:(calc.18F.github.com)` to your filter's exceptions will allow any issues posted to that repo to reach your inbox.
 
-### 4. Join the 18F or GSA organization
+### 4. Join the VA organization
 
-* **18F team members:** After you've completed the above steps, hop into [#admins-github](https://gsa-tts.slack.com/messages/admins-github/) on Slack and **post the following**: "I've enabled two-factor authentication – please add me (`https://github.com/username`) to https://github.com/orgs/18F/teams/18f-staff/members on GitHub." An admin will verify compliance and add you, after which you'll need to accept their invite by going [here](https://github.com/orgs/18F/invitation?via_email=1).
-
-* **OPP team members:** Email [gsa-github.support@gsa.gov](mailto:gsa-github.support@gsa.gov) the following: "Please add me (`https://github.com/username`) to https://github.com/GSA".  An admin will verify compliance and add you, after which you'll to need accept their invite by going [here](https://github.com/orgs/gsa/invitation?via_email=1).
-
-Members of OPP needing access to the 18F GitHub org should hop into [#admins-github](https://gsa-tts.slack.com/messages/admins-github/) on Slack and **post the following**: "I've enabled two-factor authentication – please add me (`https://github.com/username`) to https://github.com/orgs/18F/teams/opp/members on GitHub." An admin will verify compliance and add you, after which you&rsquo;ll need to accept their invite by going [here](https://github.com/orgs/18F/invitation?via_email=1).
-
-* **Anyone else in TTS** After you've completed the above steps, hop into [#admins-github](https://gsa-tts.slack.com/messages/admins-github/) on Slack and **post the following**: "I've enabled two-factor authentication – please add me (`https://github.com/username`) to https://github.com/orgs/18F/teams/tts-gsa-partners/teams on GitHub - I work at (`PIF/COE/Ops/TTS Office of Acqusition`)." An admin will verify compliance and add you, after which you'll need to accept their invite by going [here](https://github.com/orgs/18F/invitation?via_email=1).
-
-### 5. Make your membership public
-
-Go to the [18F people page](https://github.com/orgs/18F/people). Click where it says **private** next to your name. Change that to **public**.
+- **VA team members:** After you've completed the above steps, hop into [#admins-github](https://gsa-tts.slack.com/messages/admins-github/) on Slack and **post the following**: "I've enabled two-factor authentication – please add me (`https://github.com/username`) to https://github.com/orgs/18F/teams/18f-staff/members on GitHub." An admin will verify compliance and add you, after which you'll need to accept their invite by going [here](https://github.com/orgs/18F/invitation?via_email=1).
 
 ## Rules
 
@@ -80,96 +70,50 @@ Go to the [18F people page](https://github.com/orgs/18F/people). Click where it 
 
 - [Brief onboarding class about GitHub]({{site.baseurl}}/intro-to-github).
 
-- The 18F [Open Source Policy](https://github.com/18F/open-source-policy/blob/master/policy.md) and accompanying [practice guide](https://github.com/18F/open-source-policy/blob/master/practice.md) explain why and how we write code and documentation in the open.
+- The VA [Open Source Policy](#) and accompanying [practice guide](#) explain why and how we write code and documentation in the open.
 
-- [A guide to using GitHub and the Terminal from 18F's blog](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/).
+- [A guide to using GitHub and the Terminal](#).
 
-- Will Slack [explains the basics](https://docs.google.com/document/d/18b-4VPTcuqat-enGQSVzivGH2CsqdQVG0K0eToRM39I/edit) of version control and GitHub. Slides are available [here](https://pages.18f.gov/slides/github-basics/#/18); course materials are [here](https://docs.google.com/document/d/18b-4VPTcuqat-enGQSVzivGH2CsqdQVG0K0eToRM39I/edit). It's also available [in video form](https://www.youtube.com/watch?v=uNa9GOtM6NE).
-
-- The [18F Open Source Style Guide](https://pages.18f.gov/open-source-guide/) covers conventions and best practices.
+- [GitHub Basics](#)
 
 ### Git and GitHub Usage
 
-Git and GitHub are the [standard](https://github.com/18F/Infrastructure#approved-toolchain) tools for revision control at 18F. Git is an open-source version control system, and GitHub is a closed-source, commercial service that hosts Git repositories and adds extra features to support them, such as pull requests and issue tracking. Although this _sounds_ super technical, these tools are _not_ just for developers hacking code; 18F employees use GitHub to author blog posts, manage documentation, and comment on one another&rsquo;s work.
+Git and GitHub are the standard tools for revision control at VA. Git is an open-source version control system, and GitHub is a commercial service that hosts Git repositories and adds extra features to support them, such as pull requests and issue tracking. Although this _sounds_ super technical, these tools are _not_ just for developers hacking code; VA uses GitHub to handle a number things including managing documentation and commenting on one another&rsquo;s work.
 
-In other words, you&rsquo;ll probably use GitHub a lot at 18F. We recommend you get familiar with the basics. If you&rsquo;re new to GitHub and feel confused at first, that&rsquo;s normal. Try a few guides, review our documentation, and ask your teammates for help. GitHub also has a handy document that explains the typical [GitHub Workflow](https://guides.github.com/introduction/flow/).
+In other words, you&rsquo;ll probably use GitHub a lot at VA going forward. We recommend you get familiar with the basics. If you&rsquo;re new to GitHub and feel confused at first, that&rsquo;s normal. Try a few guides, review our documentation, and ask your teammates for help. GitHub also has a handy document that explains the typical [GitHub Workflow](https://guides.github.com/introduction/flow/).
 
 ### Working with outside collaborators
 
-Giving contractors and federal partners read or write access to your repository is both allowed and _encouraged_ to facilitate the flow of ideas and build a stronger, more decentralized community.
-
-Confusingly, no one should be an "outside collaborator" in GitHub parlance. Instead, we should manage repo access exclusively via teams.
-
-Here&rsquo;s our current process to address both operational and security concerns:
-
-1. If the user is a member of the federal government, confirm we have an active [inter-agency agreement (IAA)](https://pages.18f.gov/iaa-forms/primer.html) or other legal document authorizing the work.
-1. If the user is a contractor, confirm we have an active and valid contract with them, or their company.
-1. Ask the collaborator(s) to go through [the first three setup steps](#setup).
-    * They will need to confirm they've done this before you continue.
-    * They will also need to add an e-mail address to the GitHub profile so we can contact them later when doing clean-up in our org.
-    * Do not ask the admins to add the collaborator to the 18F or OPP teams as detailed in step 4.
-2. (Ask #admins-github to) [create a team](https://help.github.com/articles/setting-up-teams/) whose access we can turn off/on with one button. Separate a staff-only team from a contractor/mixed/collaborator team for a project, and name it something like `Project name - Collaborators | Skillset`. You only need to set a `parent team` for your new team if you need your team to inherit existing permissions from an existing team (for example, if this team should automatically have access to a base set of repos). If your new team is for external collaborators, you will generally not want to add a parent team.
-3. In the &ldquo;Description&rdquo; of the team, put something reasonable plus a point-of-contact email address for the collaborators.
-    * Ideally this is the address of someone senior — someone you can email if issues come up and who can rally the troops.
-5. (Ask #admins-github to) [add the members to the team](https://help.github.com/articles/maintaining-teams/).
-    * The 18F GitHub Organization requires 2FA for its members. Users without 2FA cannot be added to the GitHub Organization.
-6. Give the team read/write permissions on the relevant repositories. Admin rights should be limited exclusively to 18F staff.
-
-When the engagement is over, you must let #admins-github know so the team can be deleted and access removed.
+ <p style="color: red">need help here</p>
 
 ### Pull requests
 
-18F defaults to using branches, though teams are welcome to decide they prefer using forks instead. Regardless of whether you branch or fork, changes happen via [pull requests](https://help.github.com/articles/using-pull-requests/).
+VA defaults to using branches. Changes happen via [pull requests](https://help.github.com/articles/using-pull-requests/).
 
 In the process of receiving feedback in a pull request, some individuals on some teams may choose to amend, reorder, or squash commits. This type of &ldquo;re-writing history&rdquo; is compliant with the Freedom of Information Act (FOIA) when it occurs on a pull request because git branches are considered a work in progress. These actions are not allowed on the master branch because that is considered the canonical source of information.
 
 ### Issues
 
-If you want to make a suggestion to an 18F project without making a specific change to its code, such as if you aren&rsquo;t sure how to fix a problem or want clarification before fixing something, file an issue on that project via GitHub. Try searching the list of open issues before you add one; the error you see might already be on the team&rsquo;s radar.
+If you want to make a suggestion to a VA project without making a specific change to its code, such as if you aren&rsquo;t sure how to fix a problem or want clarification before fixing something, file an issue on that project via GitHub. Try searching the list of open issues before you add one; the error you see might already be on the team&rsquo;s radar.
 
 ### Permissions
 
-Teams can give groups of people administrative, write, or read permissions to 18F repositories. Even if you have write access into a repository, we strongly encourage the submission of pull requests for improvements or fixes (see &ldquo;we prefer branching to forking when we&rsquo;re working together on 18F projects,&rdquo; above).
+Teams can give groups of people administrative, write, or read permissions to VA repositories. Even if you have write access into a repository, we strongly encourage the submission of pull requests for improvements or fixes (see &ldquo;we prefer branching to forking when we&rsquo;re working together on VA projects,&rdquo; above).
 
 Contractors or external government collaborators should only be added to teams with scoped write permissions to the repositories they're working on. They should never have administrative-level rights. In order to separate out these permissions, create a team in the format of `projectname-admins` for government staff, if necessary.
 
 ## Tips
 
-- **Document your workflow.** There are many different ways to use GitHub, and each different team of people at 18F (likely) uses it differently. That said, teams should document their desired git workflow for each project, such as in your repository&rsquo;s ```contributing.md``` file. The 18F-Site team offers a good example with  [their GitHub wiki](https://github.com/18F/18f.gsa.gov/wiki/How-we-Git). In 18F's [development guide](https://pages.18f.gov/development-guide/), there are [code review questions](https://pages.18f.gov/development-guide/code-review/) that your team may want to go over as you think about documentation.
+- **Document your workflow.** There are many different ways to use GitHub, and each different team of people at the VA (likely) uses it differently. That said, teams should document their desired git workflow for each project, such as in your repository&rsquo;s ```contributing.md``` file. [GitHub flow](https://guides.github.com/introduction/flow/) is a great workflow option that can also be used as a starting point for your teams own process.
 
 - **Do you fork or do you branch?** Git allows you to both &ldquo;fork&rdquo; and &ldquo;branch&rdquo; repositories to make a place to work on changes before you submit them for integration into the main code. **[Making a fork](https://help.github.com/articles/fork-a-repo/)** creates a copy of the repository in your own GitHub account. **Making a branch** of the main repository means you&rsquo;re working in your own little space, but it&rsquo;s still part of the main repository &mdash; which helps keep the project organized, since everyone can easily see what teammates are working on.
 
-## For admins
-
-In GitHub parlance, where repos all have admins, org-wide administrators are called "owners."
-
-- When you take care of an ask, give it a :check: reaction in Slack. If you have questions about an ask, please start a thread so that the channel stays clean.
-- Whenever possible, owners should push decisions as to be as close as possible to those most affected - like whoever owns or last worked on a repo.
--  If you aren't sure about the answer to something, its always better to check with someone else instead of guessing.
-- If you aren't helping out as an owner, please give up your permissions to help minimize our risk.
-
-### Organizations
-
-18F/TTS manages (or is heavily involved with) the following GitHub organizations:
-
-* [@18F](https://github.com/18F)
-* [@cloudfoundry-community](https://github.com/cloudfoundry-community)
-* [@digital-analytics-program](https://github.com/digital-analytics-program)
-* [@digitalgov](https://github.com/digitalgov)
-* [@federalist-users](https://github.com/federalist-users)
-* [@fedramp](https://github.com/fedramp)
-* [@fellows-in-innovation](https://github.com/fellows-in-innovation)
-* [@fisma-ready](https://github.com/fisma-ready)
-* [@GSA](https://github.com/GSA)
-* [@opencontrol](https://github.com/opencontrol)
-* [@openopps](https://github.com/openopps)
-* [@presidential-innovation-fellows](https://github.com/presidential-innovation-fellows)
+  **Note on forking:** Forking of private repos have been disabled for all users. Please use a branching workflow for these repos.
 
 ## Resources
 
-- [Githug](https://github.com/Gazler/githug) is designed to give you a practical way of learning git. It has a series of levels, each requiring you to use git commands to arrive at a correct answer.
-
-- [Try Git](https://try.github.io/levels/1/challenges/1)
+- [Learning Lab](https://lab.github.com/)
+- [Try Git](https://try.github.io/)
 
 ---
 
