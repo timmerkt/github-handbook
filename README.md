@@ -1,98 +1,123 @@
-TTS Handbook [![CircleCI](https://circleci.com/gh/18F/handbook.svg?style=svg)](https://circleci.com/gh/18F/handbook)
-========================
+# VA GitHub Handbook
 
-The [TTS Handbook](https://handbook.18f.gov) documents the mission, values, structures, policies, tools, and guides that shape our team. This is a _living_ document and is updated regularly. If you have questions, comments, or suggestions, please
-[open an issue](https://github.com/18F/handbook/issues). If you want to add content to the Handbook, please submit a pull request or ask in [#tts-handbook](https://gsa-tts.slack.com/messages/tts-handbook).
+Helping Veterans Affairs (VA) teams design, build, and launch great digital services that meet the [Digital Standards](https://department-of-veterans-affairs.github.io/github-handbook/digital-standards) for the [Veteran-facing Services Platform](#fn1) by using and understanding GitHub.
 
-Note: If you're changing any kind of process, please let [#wg-onboarding](https://gsa-tts.slack.com/messages/wg-onboarding) know so we can keep the handbook, new hire messages, and checklists up to date.
+Contact ___TDB___ for any questions, comments, or feedback.
 
-## What can't be included
+## Contributing
 
-For TTS staff, keep in mind that the handbook website and repository are public, so we can't include information that shouldn't be public. We already get training on this, but here are a few reminders about things we shouldn't include here:
+* See [the repo Wiki](https://github.com/department-of-veterans-affairs/github-handbook/wiki) for
+  * How this Jekyll site is organized
+  * How to use Markdown for writing/editing content
+  * How to update the ```modified-date``` that displays on site pages.
+* See [CONTRIBUTING](CONTRIBUTING.md) for how to contribute content.
 
-* [Sensitive information, as described in our Open Source Policy practices guide](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information)
-* Comments that can be easily interpreted as [endorsements](https://www.oge.gov/web/oge.nsf/Use%20of%20Government%20Position%20and%20Resources/17593AE8B3A597C685257E96006364E4?opendocument) (or other potential ethical issues)
+## Running and Development
 
-We avoid including information that can easily go out of date and is already published somewhere else in a useful format. This includes:
+Clone the project by executing `git clone https://github.com/department-of-veterans-affairs/github-handbook.git`.
 
-* People's phone numbers, even if public information (such as their GSA work number). Link to the public [GSA staff directory](http://www.gsa.gov/portal/staffDirectory/searchStaffDirectory) or the access-controlled 18F contact spreadsheet instead of including phone numbers in the handbook.
-* Information that is already well-covered on GSA InSite. Link there instead of reproducing it.
-* Specific TTS org chart info (such as lists of names of supervisors and facilitators). Link to the [TTS org chart](https://handbook.18f.gov/tts-org-chart/), the internal [18F org chart](https://handbook.18f.gov/org-chart/), or the internal [OPP org chart](https://handbook.18f.gov/opp-org-chart/) instead.
+After the clone is completed change your location to the project directory: `cd github-handbook`.
 
-We're careful about publishing [information collected during research](https://handbook.18f.gov/research-guidelines/); [learn more](https://docs.google.com/document/d/1Xp4LxbW6cx61rXrsnnfIPCz6cglovHzZeEjCcnpIeaM/edit) and ask [#research](https://gsa-tts.slack.com/archives/research) for guidance first.
+The rest of this guide will assume you are in this project directory.
 
-## Development
+### Installing and Running locally
 
-### With Docker
+This project is built using [Jekyll](https://jekyllrb.com). To run this project locally on your computer you will need to intall some dependencies.
 
+<details>
+
+<summary>Click here for pre-requisites instrucions</summary>
+
+1. [Install Ruby](https://www.ruby-lang.org/en/downloads/) for your environment before you try to install the project dependencies.
+
+2. Install Jekyll:
+
+    `gem install bundler jekyll`
+
+</details>
+
+1. Install project dependencies:
+
+    `bundle install`
+
+2. Run Jekyll dev server:
+
+    `bundle exec jekyll serve`
+
+3. Once running visit [http://0.0.0.0:4000/github-handbook/](http://localhost:4000/github-handbook/)
+
+### Docker and Docker Compose
+
+<details>
+
+<summary>Click here for more on Docker and its installation</summary>
+
+This project has two file that help you use [Docker](https://docker.com) for development and running the project localy:
+
+* [Dockerfile](Dockerfile)
+* [docker-compose.yml](docker-compose.yml)
+
+To be able to use this you will need Docker installed on your system:
+
+* [Docker Desktop for MacOs or Windows](https://www.docker.com/products/docker-desktop)
+* [Linux](https://hub.docker.com/search/?type=edition&offering=community&operating_system=linux)
+
+`docker-compose` is an optional requirement but is highly recommended.
+
+* [Install docker-compose](https://docs.docker.com/compose/install/)
+
+</details>
+
+#### Using docker-compose
+
+Using docker-compose is as simple as excuting:
+
+```shell
+docker-compose up web
 ```
-docker-compose up
-```
 
-### Without Docker
+Once the project is running you can visit [http://0.0.0.0:4000/github-handbook/](http://0.0.0.0:4000/github-handbook/)
 
-Install dependencies:
+### Development
 
-```bash
-bundle install
-```
+Thanks for considering contributing to our project! Please take some time and look at our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-Serve the site:
+#### General Tips
 
-```bash
-bundle exec jekyll serve
-```
+Take a quick look at our [project WIKI](https://github.com/department-of-veterans-affairs/github-handbook/wiki). Here you will find general information about the structure of our project.
 
-### Fork or branch?
+#### How to start with development
 
-Forking and branching are two ways of submitting pull requests to edit the Handbook.
+1. Clone/fork this repo.
+2. For best results (urls work correctly), run locally at 127.0.0.1:4000/github-handbook/
 
-If you are using the ***GitHub website built-in editing features***, you do not have to choose: GitHub will make the correct choice for you.
+    ```shell
+    docker-compose up web
+    ```
 
-If you are using your Terminal / local git to edit:
+    The Jekyll server will detect changes from files and reload the site. The only exception will be when editing the `_config.yml` file.
 
-* **TTS teammates**: Please use ***branching*** to submit pull requests. Federalist Preview sites will only be built from a branch, and continuous integration can only succeed for PRs created from branches.
+3. Whenever you make a change to content, also change the ```modified-date``` in the yml at the top of the relevant ```.md``` file.
 
-* **External contributors**: Please use ***forking*** to submit pull requests, since non-TTS contributors do not have write access. Unfortunately, we won't be able to run Federalist Preview sites for your pull request; please build and serve the site locally to test instead.
+    Eg.
 
-If you have any questions, feel free to ask in [#tts-handbook](https://gsa-tts.slack.com/messages/tts-handbook).
+    ```
+    ---
+    #
+    modified-date: April 08, 2019
+    ...
+    other text
+    ...
+    ```
 
-Thank you so much for your contributions! :tada:
+## License
 
+All content is available under the [Creative Commons Zero v1.0 Universal license](LICENSE), except where otherwise stated.
 
-### GuidesStyle
+## Colophon
 
-This project inherits a few commands from the [guides-style project](https://github.com/18F/guides-style):
+* This project is based on the [18F/handbook](https://github.com/18f/handbook)
 
-```
-# Update navigation data in _config.yml:
-$ GuidesStyle18F.update_navigation_configuration Dir.pwd
+<hr>
 
-# Update the guides_style_18f gem
-$ GuidesStyle18F.update_theme
-```
-
-The GuidesStyle project appears to be more in maintenance mode than in active development; future updates to theme may come from GuidesStyle or from another source.
-
-### Travel guide development
-
-To add additional images:
-
-1. Add an image to the `images/travel` directory.
-1. Link the image on the travel page, with folding HTML: `<img src="/images/travel/filename.png" class="travel-guide-hide">`.
-1. A show/hide link will automatically be created.
-
-To create a new page:
-
-1. Create a markdown file in the `_pages/policies/travel` directory.
-1. Include a title and links to the "Travel Guide TOC" (see existing pages for reference).
-1. Update the page content.
-* Update the Travel Guide TOC `_pages/policies/travel/travel-guide-table-of-contents.md` with a link to your new page.
-
-### Internal links
-
-For internal links, use `{{site.baseurl}}` in the URL (in place of `https://https://handbook.18f.gov`) to make links work correctly in Federalist previews as well as in production.
-
-:sparkles: **Good:** `({{site.baseurl}}/code-of-conduct/)`
-
-:no_entry_sign: **Instead of:** `(/code-of-conduct/)`
+<a name="fn1"></a>The *Veteran-facing Services Platform* is the set of technologies (and processes) that veteran-facing services on the [VA.gov](https://www.va.gov) website. VA teams who want to release a digital service for veterans using the Veteran-facing Services Platform should use this [Handbook](http://department-of-veterans-affairs.github.io/va-digital-service-handbook/) to learn how to do that.

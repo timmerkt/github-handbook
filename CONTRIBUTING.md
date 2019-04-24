@@ -1,30 +1,38 @@
+# Contributing to VA.gov Projects
 
-## How to update the handbook
+## How to Contribute
 
-Everyone (both inside and outside 18F) can submit contributions to https://github.com/18F/handbook as a pull request or [open an issue](https://github.com/18F/handbook/issues/new) with a suggestion. If you're part of 18F, you can also chat about ideas in [#tts-handbook](https://gsa-tts.slack.com/messages/tts-handbook) or [#wg-onboarding](https://gsa-tts.slack.com/messages/wg-onboarding).
+There are many ways to contribute to this project:
 
-There is no dedicated staffing for the handbook right now; maintenance is done in spare time by any 18F staff member who is interested in helping.
+### Bugs
 
-If you're working on a chunk of writing that is important to you or your team (or to 18F in general), consider asking the [18F Writing Lab](https://github.com/18F/writing-lab) to review and edit it before you propose it for the handbook.
+If you spot a bug in the source code or a mistake in the documentation, let us know! File a GitHub Issue for this project.
 
-If you make a pull request related to a subject that is the responsibility of a specific team or person, please consider tagging or assigning it to that team or person (or pinging them in Slack to ask them to review it).
+When filing an issue, add the following:
 
-Each pull request should be reviewed by at least one other 18F staff member before we merge it (in other words, don't merge your own pull requests), as a general good practice.
+- Title: Sentence that summarizes the bug concisely
+- Comment:
+    - The environment you experienced the bug (browser, browser version, kind of account any extensions enabled)
+    - The exact steps you took that triggered the bug. Steps 1, 2, 3, etc.
+    - The expected outcome
+    - The actual outcome, including screen shot
+    - (Bonus Points:) Animated GIF or video of the bug occurring
+- Label: Apply the label `bug`
 
-### How to review and merge pull requests
+### Code Submissions
 
-Any 18F staff member can review a pull request and decide whether they feel confident about merging it. If it's not your area of expertise, ask somebody at 18F who has expertise in that area.
+Due to team sprint prioritization, we are not always able to review community pull requests in a timely fashion. We ask that you file an issue so that we can work the fix into the work that our team is already doing. The best way to make sure that you don't waste your time is to file an Issue before beginning work on the code to verify if the team will have bandwidth to review and that it fits into a product prioritization (these are typically every 1 or 2 weeks).
 
-For example: if something looks like it's related to how Team Ops works, ask a Team Ops person to review it; if it looks like it needs Infrastructure team review, ask the Infrastructure team.
+### What isn't open?
 
-If you're not sure if you should merge something, ask for a second opinion in #18f-handbook first.
+There could be a time where tasks could touch on sensitive PHI/PII. To ensure these do not wind up in the wrong place we might handle some tasks outside of GitHub Issues. We strive to work in the open as much as possible, but the team has decided that doing this keeps folks safer and allows us to keep the code itself open to all.
 
-## Styles
+With this said, please still file Issues for public contributions and reporting bugs. We still look here. :smile:
 
-This will be fleshed out in future iterations. For now, keep in mind that content appearing in the handbook should exemplify [best practices with regard to content](https://pages.18f.gov/content-guide/). Handbook content should be welcoming, personable, and free from jargon.
+## Contact
 
-## Public domain
+If you have a question or comment about this project, file a GitHub Issue with your question in the Title, any context in the Comment, add the `question` Label, and tag/assign one of the following points of contact:
 
-This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
-
-All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
+* General / product questions: TBD
+* Design questions: TBD
+* Technical questions: TDB
