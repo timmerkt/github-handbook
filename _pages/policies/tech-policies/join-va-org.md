@@ -1,5 +1,6 @@
 ---
 title: Accepting a GitHub invitation
+permalink: /join-va-org
 ---
 
 Welcome to GitHub, a powerful platform for individuals and organizations to discover, share, and contribute to code — and to manage software (and other) projects.
@@ -15,7 +16,7 @@ After you [request access to the VA organization][11], you should receive an  em
 
         [![github\_email.png][image-1]][2]
 
-    2. You'll receive this invitation via email but can also find it on the banner of the Department-of-Veterans-Affairs Org Home page ([https://github.com/department-of-veterans-affairs][3]): 
+    2. You'll receive this invitation via email but can also find it on the banner of the [Department-of-Veterans-Affairs Org Home page][3]:
 
         [![invite\_notification\_in\_org.png][image-2]][4]
 
@@ -42,19 +43,19 @@ After you [request access to the VA organization][11], you should receive an  em
 You are now a member of the [department-of-veterans-affairs organization][9]. You can create private repositories now and also be added to existing teams or repositories (by a team maintainer or a repository admin).
 
 [1]: https://github.com/department-of-veterans-affairs
-[2]: {{site.base_url}}/images/2fa/github_email.png
+[2]: {{site.baseurl}}/images/2fa/github_email.png
 [3]: https://github.com/department-of-veterans-affairs
-[4]: {{site.base_url}}/images/2fa/invite_notification_in_org.png
-[5]: {{site.base_url}}/images/2fa/accept_invite_email_screen_no_2fa.png
+[4]: {{site.baseurl}}/images/2fa/invite_notification_in_org.png
+[5]: {{site.baseurl}}/images/2fa/accept_invite_email_screen_no_2fa.png
 [6]: https://help.github.com/en/articles/configuring-two-factor-authentication
-[7]: {{site.base_url}}/images/2fa/accept_invite_email_screen.png
-[8]: {{site.base_url}}/images/2fa/invite_accespted.png
+[7]: {{site.baseurl}}/images/2fa/accept_invite_email_screen.png
+[8]: {{site.baseurl}}/images/2fa/invite_accespted.png
 [9]: https://github.com/department-of-veterans-affairs
-[10]: {{site.base_url}}/2fa-requirements/
+[10]: {{site.baseurl}}/2fa-requirements/
 [11]: https://vaww.oit.va.gov/services/github/
 
-[image-1]: {{site.base_url}}/images/2fa/github_email.png
-[image-2]: {{site.base_url}}/images/2fa/invite_notification_in_org.png
-[image-3]: {{site.base_url}}/images/2fa/accept_invite_email_screen_no_2fa.png
-[image-4]: {{site.base_url}}/images/2fa/accept_invite_email_screen.png
-[image-5]: {{site.base_url}}/images/2fa/invite_accespted.png
+[image-1]: {{site.baseurl}}/images/2fa/github_email.png
+[image-2]: {{site.baseurl}}/images/2fa/invite_notification_in_org.png
+[image-3]: {{site.baseurl}}/images/2fa/accept_invite_email_screen_no_2fa.png
+[image-4]: {{site.baseurl}}/images/2fa/accept_invite_email_screen.png
+[image-5]: {{site.baseurl}}/images/2fa/invite_accespted.png

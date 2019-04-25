@@ -1,5 +1,6 @@
 ---
 title: Setting up two-factor authentication (2FA)
+permalink: /2fa-requirements
 ---
 
 The VA requires two-factor authentication for anyone accessing one of the VA’s private repositories on GitHub.com. 
@@ -66,28 +67,28 @@ Step-by-step instructions follow. But you can read [more detailed instructions f
 
         [![invite\_notification\_in\_org.png][image-10]][12]
 
-Back to: [main site]({{site.base_url}}/) | [Joining VA Github Organization]({{site.base_url}}/join-va-org/)
+Back to: [main site]({{site.baseurl}}/) | [Joining VA Github Organization]({{site.baseurl}}/join-va-org/)
 
 [1]: https://help.github.com/en/articles/configuring-two-factor-authentication
-[2]: {{site.base_url}}/images/2fa/accept_invite_email_screen_no_2fa.png
-[3]: {{site.base_url}}/images/2fa/2fa_setup_screen_1.png
-[4]: {{site.base_url}}/images/2fa/2fa_setup_screen_2.png
-[5]: {{site.base_url}}/images/2fa/2fa_setup_screen_3_a.png
-[6]: {{site.base_url}}/images/2fa/2fa_setup_screen_3_b.png
-[7]: {{site.base_url}}/images/2fa/2fa_setup_screen_4_app.png
-[8]: {{site.base_url}}/images/2fa/2fa_setup_screen_4_sms_a.png
-[9]: {{site.base_url}}/images/2fa/2fa_setup_screen_4_sms_b.png
-[10]: {{site.base_url}}/images/2fa/2fa_setup_screen_5.png
+[2]: {{site.baseurl}}/images/2fa/accept_invite_email_screen_no_2fa.png
+[3]: {{site.baseurl}}/images/2fa/2fa_setup_screen_1.png
+[4]: {{site.baseurl}}/images/2fa/2fa_setup_screen_2.png
+[5]: {{site.baseurl}}/images/2fa/2fa_setup_screen_3_a.png
+[6]: {{site.baseurl}}/images/2fa/2fa_setup_screen_3_b.png
+[7]: {{site.baseurl}}/images/2fa/2fa_setup_screen_4_app.png
+[8]: {{site.baseurl}}/images/2fa/2fa_setup_screen_4_sms_a.png
+[9]: {{site.baseurl}}/images/2fa/2fa_setup_screen_4_sms_b.png
+[10]: {{site.baseurl}}/images/2fa/2fa_setup_screen_5.png
 [11]: https://github.com/department-of-veterans-affairs
-[12]: {{site.base_url}}/images/2fa/invite_notification_in_org.png
+[12]: {{site.baseurl}}/images/2fa/invite_notification_in_org.png
 
-[image-1]: {{site.base_url}}/images/2fa/accept_invite_email_screen_no_2fa.png
-[image-2]: {{site.base_url}}/images/2fa/2fa_setup_screen_1.png
-[image-3]: {{site.base_url}}/images/2fa/2fa_setup_screen_2.png
-[image-4]: {{site.base_url}}/images/2fa/2fa_setup_screen_3_a.png
-[image-5]: {{site.base_url}}/images/2fa/2fa_setup_screen_3_b.png
-[image-6]: {{site.base_url}}/images/2fa/2fa_setup_screen_4_app.png
-[image-7]: {{site.base_url}}/images/2fa/2fa_setup_screen_4_sms_a.png
-[image-8]: {{site.base_url}}/images/2fa/2fa_setup_screen_4_sms_b.png
-[image-9]: {{site.base_url}}/images/2fa/2fa_setup_screen_5.png
-[image-10]: {{site.base_url}}/images/2fa/invite_notification_in_org.png
+[image-1]: {{site.baseurl}}/images/2fa/accept_invite_email_screen_no_2fa.png
+[image-2]: {{site.baseurl}}/images/2fa/2fa_setup_screen_1.png
+[image-3]: {{site.baseurl}}/images/2fa/2fa_setup_screen_2.png
+[image-4]: {{site.baseurl}}/images/2fa/2fa_setup_screen_3_a.png
+[image-5]: {{site.baseurl}}/images/2fa/2fa_setup_screen_3_b.png
+[image-6]: {{site.baseurl}}/images/2fa/2fa_setup_screen_4_app.png
+[image-7]: {{site.baseurl}}/images/2fa/2fa_setup_screen_4_sms_a.png
+[image-8]: {{site.baseurl}}/images/2fa/2fa_setup_screen_4_sms_b.png
+[image-9]: {{site.baseurl}}/images/2fa/2fa_setup_screen_5.png
+[image-10]: {{site.baseurl}}/images/2fa/invite_notification_in_org.png
