@@ -6,6 +6,9 @@ permalink: pretty
 author:
   name: GitHub Team at the VA
   email: some.email@va.gov
+canonical_domain: department-of-veterans-affairs.github.io
+url: https://department-of-veterans-affairs.github.io
+baseurl: /github-handbook
 
 slack:
   organization: lighthouseva
@@ -13,7 +16,7 @@ slack:
 
 github:
   organization: department-of-veterans-affairs
-  repository: handbook
+  repository: github-handbook
   default_branch: master
 
 exclude:
