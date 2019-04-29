@@ -1,5 +1,6 @@
 ---
 title: Security incidents
+permalink: /security-incidents
 ---
 
 Something went "bump" in the night (or the day)? This document explains what to do when responding to a security incident. See [What is an incident?](#what-is-an-incident) if you need help determining whether something counts as an incident.
@@ -31,12 +32,10 @@ First, it's important to note: it's always OK to err on the side of reporting!
 
 <!-- This needs to be populated with VA specific information -->
 
-##For Responders
+## For Responders
 
 Responders to an incident (as defined above) are entitled to take steps to remediate the immediate problem without worrying about whether or not the work is billable for up to eight person-hours of work per incident. Fix the problem, and then worry about how we will account for your time.
 
-### Preventing future incidents with Git Seekrets
+### Preventing future incidents
 
-If an incident involved exposing environment variables or private configuration
-data, consider [adding a Rule](https://github.com/18F/laptop#git-seekret) to the
-Git Seekrets installation to prevent further incidents across TTS.
+Please take a look at the [sensitve information page]({{site.baseurl}}/sensitive-information) to learn about tools to help you avoid commiting sensitive information to your repository.
