@@ -142,20 +142,20 @@ navigation:
       url: https://vaww.oit.va.gov/services/github/
       internal: false
       new_tab: true
-  - text: Additional Infomation
-    children:
-    - text: Glossary
-      url: glossary/
-      internal: true
-    - text: Bookmarks
-      url: bookmarks/
-      internal: true
+  # - text: Additional Infomation
+  #   children:
+  #   - text: Glossary
+  #     url: glossary/
+  #     internal: true
+  #   - text: Bookmarks
+  #     url: bookmarks/
+  #     internal: true
     # - text: VA Code of Conduct
     #   url: code-of-conduct/
     #   internal: true
-    - text: Security incidents
-      url: security-incidents/
-      internal: true
-    - text: Sensitive information
-      url: sensitive-information/
-      internal: true
+    # - text: Security incidents
+    #   url: security-incidents/
+    #   internal: true
+    # - text: Sensitive information
+    #   url: sensitive-information/
+    #   internal: true
