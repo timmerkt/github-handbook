@@ -46,7 +46,7 @@ collections:
 
 # Google Analytics tracking code for handbook
 google_analytics_ua:
-
+safe: true
 navigation:
 - text: Welcome to the VA
   blurb: |
