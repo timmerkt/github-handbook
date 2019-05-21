@@ -1,6 +1,6 @@
 ---
 title: Sensitive information
-permalink: /sensitive-information
+permalink: /sensitive-information/
 ---
 
 Here's what you need to know about sensitive information at TTS.

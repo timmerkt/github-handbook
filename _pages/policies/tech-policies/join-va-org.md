@@ -1,6 +1,6 @@
 ---
 title: Accepting a GitHub invitation
-permalink: /join-va-org
+permalink: /join-va-org/
 ---
 
 Welcome to GitHub, a powerful platform for individuals and organizations to discover, share, and contribute to code — and to manage software (and other) projects.

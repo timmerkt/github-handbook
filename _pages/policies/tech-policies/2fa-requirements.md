@@ -1,6 +1,6 @@
 ---
 title: Setting up two-factor authentication (2FA)
-permalink: /2fa-requirements
+permalink: /2fa-requirements/
 ---
 
 The VA requires two-factor authentication for anyone accessing one of the VA’s private repositories on GitHub.com. 
