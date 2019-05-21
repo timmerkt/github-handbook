@@ -42,7 +42,7 @@ defaults:
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /:path
 
 # Google Analytics tracking code for handbook
 google_analytics_ua:
@@ -54,7 +54,7 @@ navigation:
       <p>Welcome to GitHub, a powerful platform for individuals and organizations to discover, share, and contribute to code — and to manage software (and other) projects.</p>
       <p>The VA uses GitHub to enable collaboration and transparency around project artifacts in a way that is secure and compliant.</p>
     </div> 
-  url: welcome-to-VA/
+  url: welcome-to-VA
   internal: true
   generated: true
   children:    
@@ -111,10 +111,10 @@ navigation:
       internal: false
       new_tab: true
     - text: Joining the VA GitHub Organization
-      url: join-va-org/
+      url: join-va-org
       internal: true
     - text: 2FA Requirements
-      url: 2fa-requirements/
+      url: 2fa-requirements
       internal: true
     - text: Learn about the two versions of GitHub in use at the VA and request access
       url: https://vaww.oit.va.gov/services/github/
