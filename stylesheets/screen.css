@@ -25,7 +25,7 @@ body{
 	background: #f8f8f8;
 }
 
-a{  color: #006fbe; text-decoration: ;}
+a{  color: #006fbe; text-decoration: none ;}
 a:hover{ color: #00aedf; }
 
 a:visited{  color: #8d0058; }
@@ -750,8 +750,6 @@ a[id]{
 		font-size: 21px;
 		line-height: 1.3em;
 	}
-}
-
 }
 
 .page .page-title+h2{ margin-top: 20px; }
