@@ -29,7 +29,7 @@ After you [request access to the VA organization][11], you should receive an  em
     1. This will be sent to your VA address by email. (Search for an email message from github.com).
 
         <details><summary>Here's an example of that invitation email:</summary>
-        <a href="2fa-docs/github_email.png"><img src="2fa-docs/github_email.png"/></a>
+        <a href="{{site.baseurl}}/images/2fa/github_email.png"><img src="{{site.baseurl}}/images/2fa/github_email.png"/></a>
         </details>
 
     2. If you don't want to wait for the email, log in and look for the **View invitation** button in the banner of the Department-of-Veterans-Affairs Organization page <https://github.com/department-of-veterans-affairs>: 
