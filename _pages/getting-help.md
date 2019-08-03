@@ -18,7 +18,7 @@ Certain thing may require help from the GitHub team. [File an issue][2] (via the
 
 - [Create a team][4]
 
-    GitHub teams][8] allow you to manage permissions for a group of folks at once.
+    [GitHub teams][8] allow you to manage permissions for a group of folks at once.
 
 - [Change a repository][5]
 
@@ -33,5 +33,5 @@ Certain thing may require help from the GitHub team. [File an issue][2] (via the
 [4]: https://github.com/department-of-veterans-affairs/github-user-requests/issues/new?assignees=&labels=new-team%2C+user-created&template=create-team.md&title=CREATE+TEAM+-+%5BTEAM-NAME%5D
 [5]: https://github.com/department-of-veterans-affairs/github-user-requests/issues/new?assignees=&labels=modify-repo%2C+user-created&template=change-a-repository.md&title=CHANGE+REPO+-+%5BREPOSITORY-NAME%5D
 [6]: https://github.com/department-of-veterans-affairs/github-user-requests/issues/new
-[7]: JOIN
+[7]: join-va-org
 [8]: https://help.github.com/en/articles/about-teams
