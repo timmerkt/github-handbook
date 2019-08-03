@@ -3,7 +3,7 @@ title: Accepting a GitHub invitation
 permalink: /join-va-org/
 ---
 
-The VA uses GitHub to manage collaboration around code and other projects in a way that meets VA security requirements. To that end, we'd like to share some helpful tips on accessing and securing your account :rocket::
+The VA uses GitHub to manage collaboration around code and other projects in a way that meets VA security requirements. To that end, we'd like to share some helpful tips on accessing and securing your account:
 
 - For background, you may want to read about the [two versions of GitHub in use at VA][11]
 
